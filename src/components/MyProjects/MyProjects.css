@@ -1,0 +1,15 @@
+.divProjects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.projects {
+  text-align: center;
+  width: 30%;
+}
+
+.titleProjects {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.headerBackground {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+}
+
+.iconesContato {
+  margin-left: 100px;
+}
+
+.marginRightAndLeft {
+  margin: 0px 20px;
+}
+
+.secoesName {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.certificacoesMargin {
+  margin: 0px 100px 0px 20px;
+}

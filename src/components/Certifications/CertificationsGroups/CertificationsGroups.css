@@ -1,0 +1,54 @@
+.certificationBackGround {
+  background-color: #23be53;
+  margin-left: 100px;
+  margin-top: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.organizationName {
+  color: white;
+  margin-left: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 0px;
+}
+
+.buttonShowHide {
+  background-color: #23be53;
+  height: 25px;
+  border: none;
+  border-radius: 8px;
+  padding-top: 5px;
+  margin-right: 20px;
+}
+
+.buttonShowHide:hover {
+  cursor: pointer;
+  background-color: #63ee8f;
+}
+
+.courses {
+  background-color: white;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 5px;
+  padding: 5px 0px;
+  width: 40%;
+  height: auto;
+  display: none;
+}
+.courseLink {
+  text-decoration: none;
+}
+.coursesName {
+  color: #23be53;
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0px;
+}
