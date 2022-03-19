@@ -20,10 +20,10 @@ export default function Header(){
             </div>
 
             <div className="secoes">
-                <a className="secoesName"> Sobre</a>
-                <a className="secoesName marginRightAndLeft"> Qualificações</a>
-                <a className="secoesName"> Projetos</a>
-                <a className="secoesName certificacoesMargin"> Certificações</a>
+                <a className="secoesName" href="#about"> Sobre</a>
+                <a className="secoesName marginRightAndLeft" href="#qualifications"> Qualificações</a>
+                <a className="secoesName" href="#projects"> Projetos</a>
+                <a className="secoesName certificacoesMargin" href="#certifications"> Certificações</a>
             </div>
         </div>
     )

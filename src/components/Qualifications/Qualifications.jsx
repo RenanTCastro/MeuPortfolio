@@ -15,7 +15,7 @@ import PostgreIcon from "../../images/Tecnologias/PostgreSQL.svg";
 export default function Qualifications(){
     return(
         <div>
-            <h1 className="titleQualifications">
+            <h1 className="titleQualifications" id="qualifications">
                 <span className="greenTitleQualification">
                     Minhas
                 </span>
@@ -46,7 +46,7 @@ export default function Qualifications(){
             <h3 className="subtitulosQualifications">
                 Próximos
             </h3>
-            <div className="divIcons">
+            <div className="divIcons" id="projects">
                 <img src={TypescriptIcon} alt="Typescript icone"/>
                 <img src={NodeIcon} alt="Node Js icone"/>
                 <img src={PostgreIcon} alt="PostgreSQL icone"/>
