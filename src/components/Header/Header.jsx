@@ -9,13 +9,13 @@ export default function Header(){
         <div className="headerBackground">
             <div className="iconesContato">
                 <a href="https://www.linkedin.com/in/renancastrot/" target="_blank" rel="noreferrer">
-                    <img src={LinkedinIcon} alt="Icone Linkedin"/>
+                    <img src={LinkedinIcon} alt="Icone Linkedin" className="iconsHeader"/>
                 </a>
                 <a href="https://github.com/RenanTCastro" className="marginRightAndLeft" target="_blank" rel="noreferrer">
-                    <img src={GitHubIcon} alt="Icone Linkedin"/>
+                    <img src={GitHubIcon} alt="Icone Linkedin" className="iconsHeader"/>
                 </a>
                 <a href="mailto:renancastrotut@gmail.com">
-                    <img src={GmailIcon} alt="Icone Linkedin"/>
+                    <img src={GmailIcon} alt="Icone Linkedin" className="iconsHeader"/>
                 </a>
             </div>
 

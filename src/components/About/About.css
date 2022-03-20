@@ -7,7 +7,11 @@
   width: 50%;
   display: flex;
   justify-content: center;
-  margin-top: 125px;
+  margin-top: 8vw;
+}
+
+.imgRes {
+  width: 70%;
 }
 
 .divAbout {
@@ -18,17 +22,52 @@
 }
 .greenTitle {
   color: #23be53;
-  font-size: 50px;
-  line-height: 25px;
+  font-size: 3.5vw;
+  line-height: 1.5vw;
   margin: 0px;
-  margin-top: 100px;
+  margin-top: 7vw;
 }
+
 .whiteTitle {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 100%;
 }
 .paragrafoAbout {
   width: 85%;
   color: #ffffff;
   margin: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .greenTitle {
+    margin-top: 14vw;
+  }
+  .imgPos {
+    margin-top: 14vw;
+  }
+  .paragrafoAbout {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .about {
+    flex-direction: column;
+  }
+  .imgPos {
+    width: 100%;
+  }
+  .divAbout {
+    width: 100%;
+    text-align: center;
+  }
+  .greenTitle {
+    margin: 0px;
+    padding: 10px;
+    font-size: 6vw;
+  }
+  .paragrafoAbout {
+    font-size: 3vw;
+    padding: 0px 20px;
+  }
 }

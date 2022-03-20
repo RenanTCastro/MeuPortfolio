@@ -41,7 +41,6 @@ export default function Qualifications(){
             <div className="divIcons">
                 <img src={ReactIcon} alt="React icone"/>
                 <img src={ReduxIcon} alt="Redux icone"/>
-                <img src={SassIcon} alt="Sass icone"/>
             </div>
             <h3 className="subtitulosQualifications">
                 Próximos

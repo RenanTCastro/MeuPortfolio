@@ -1,30 +1,45 @@
 .titleQualifications {
-  margin-top: 80px;
+  margin-top: 5.5vw;
+  margin-bottom: 0vw;
 }
 
 .greenTitleQualification {
   color: #23be53;
-  font-size: 50px;
-  margin-left: 100px;
+  font-size: 3.5vw;
+  margin-left: 7vw;
 }
 
 .whiteTitleQualification {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 3.5vw;
   margin-left: 10px;
 }
 .subtitulosQualifications {
   color: white;
-  margin: 20px 0px 5px 100px;
-  font-size: 30px;
+  margin: 1.5vw 0px 0.35vw 7vw;
+  font-size: 2.1vw;
   font-weight: 500;
 }
 
 .divIcons {
-  margin-left: 100px;
+  margin-left: 7vw;
   display: flex;
 }
 
 .divIcons > img {
-  margin-left: 15px;
+  margin-left: 1.05vw;
+  width: 4%;
+}
+
+@media only screen and (max-width: 450px) {
+  .greenTitleQualification {
+    font-size: 6vw;
+  }
+  .whiteTitleQualification {
+    font-size: 6vw;
+  }
+  .subtitulosQualifications {
+    font-size: 4.2vw;
+    margin: 1.5vw 0px 1.5vw 7vw;
+  }
 }

@@ -32,7 +32,7 @@ export default function CertificationsGroups(props){
            <div className="certificationBackGround">
                 <h3 className="organizationName">{name}</h3> 
                 <button className="buttonShowHide" value="sololearn" onClick={handleClick}>
-                    <img src={ShowHideButton} id={showHide} alt="Mostrar/Esconder certificações"/>     
+                    <img className="showHideImg"src={ShowHideButton} id={showHide} alt="Mostrar/Esconder certificações"/>     
                 </button>    
             </div>
             <div className="courses" id={name}>

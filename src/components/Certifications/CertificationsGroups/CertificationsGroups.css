@@ -1,6 +1,6 @@
 .certificationBackGround {
   background-color: #23be53;
-  margin-left: 100px;
+  margin-left: 7vw;
   margin-top: 10px;
   width: 40%;
   display: flex;
@@ -11,31 +11,31 @@
 
 .organizationName {
   color: white;
-  margin-left: 30px;
-  font-size: 22px;
+  margin-left: 2.5vw;
+  font-size: 1.6vw;
   font-weight: 500;
   line-height: 0px;
 }
 
 .buttonShowHide {
   background-color: #23be53;
-  height: 25px;
   border: none;
-  border-radius: 8px;
-  padding-top: 5px;
-  margin-right: 20px;
+  margin-right: 1.4vw;
 }
 
 .buttonShowHide:hover {
   cursor: pointer;
 }
 
+.showHideImg {
+  height: 0.5vw;
+}
 .courses {
   background-color: white;
-  height: 50px;
-  margin-left: 100px;
+  height: 3.5vw;
+  margin-left: 7vw;
   margin-top: 5px;
-  padding: 5px 0px;
+  padding: 1px 0px;
   width: 40%;
   height: auto;
   display: none;
@@ -45,9 +45,30 @@
 }
 .coursesName {
   color: #23be53;
-  margin-left: 20px;
-  padding: 5px;
-  font-size: 18px;
+  margin-left: 2.5vw;
+  font-size: 1.4vw;
   font-weight: 500;
-  line-height: 0px;
+  line-height: auto;
+}
+
+@media only screen and (max-width: 450px) {
+  .organizationName {
+    font-size: 3.2vw;
+    margin-left: 10px;
+  }
+  .certificationBackGround {
+    width: 70%;
+    margin-top: 3px;
+  }
+  .courses {
+    width: 70%;
+    margin-top: 1px;
+  }
+  .coursesName {
+    font-size: 2.5vw;
+    margin-left: 10px;
+  }
+  .showHideImg {
+    margin-bottom: 3px;
+  }
 }
