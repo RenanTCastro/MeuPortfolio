@@ -20,6 +20,14 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .divProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects {
+    width: 80%;
+  }
   .titleProjects {
     font-size: 2.5vw;
   }
