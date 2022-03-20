@@ -39,7 +39,11 @@
     font-size: 6vw;
   }
   .subtitulosQualifications {
-    font-size: 4.2vw;
+    font-size: 5vw;
     margin: 1.5vw 0px 1.5vw 7vw;
+  }
+  .divIcons > img {
+    margin-left: 1.05vw;
+    width: 8%;
   }
 }

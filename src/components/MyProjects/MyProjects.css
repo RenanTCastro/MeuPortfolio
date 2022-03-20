@@ -18,3 +18,12 @@
 .projectsImg {
   width: 100%;
 }
+
+@media only screen and (max-width: 450px) {
+  .titleProjects {
+    font-size: 2.5vw;
+  }
+  .paragrafoProjects {
+    font-size: 3vw;
+  }
+}
