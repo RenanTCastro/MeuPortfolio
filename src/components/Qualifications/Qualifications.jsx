@@ -7,7 +7,6 @@ import ReactIcon from "../../images/Tecnologias/React.svg";
 import GitIcon from "../../images/Tecnologias/GIT.svg";
 import WordpressIcon from "../../images/Tecnologias/Wordpress.svg";
 import ReduxIcon from "../../images/Tecnologias/Redux.svg";
-import SassIcon from "../../images/Tecnologias/SASS.svg";
 import TypescriptIcon from "../../images/Tecnologias/Typescript.svg";
 import NodeIcon from "../../images/Tecnologias/Node.svg";
 import PostgreIcon from "../../images/Tecnologias/PostgreSQL.svg";
