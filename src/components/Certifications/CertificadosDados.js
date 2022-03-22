@@ -4,6 +4,7 @@ import ComponentesEmReact from "../../images/Certificados/DIO/ComponentesEmReact
 import ExperiênciaDoUsuário from "../../images/Certificados/DIO/ExperiênciaDoUsuário.pdf"
 import IntroduçãoAHTML5eCSS3 from "../../images/Certificados/DIO/IntroduçãoAHTML5eCSS3.pdf"
 import ProjetosAgeisComScrum from "../../images/Certificados/DIO/ProjetosAgeisComScrum.pdf"
+import Javascriptessencial from "../../images/Certificados/DIO/javascriptessencial.pdf"
 
 export const Sololearn = [
     {
@@ -32,4 +33,8 @@ export const DIO = [
         name: "Trabalhando com componentes em React",
         link: ComponentesEmReact
     },
+    {
+        name: "JavaScript ES6 essencial",
+        link: Javascriptessencial      
+    }
 ];
