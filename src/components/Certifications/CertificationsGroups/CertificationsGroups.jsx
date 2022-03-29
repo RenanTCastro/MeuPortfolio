@@ -7,7 +7,6 @@ export default function CertificationsGroups(props){
     const showHide = props.showHide;
     const courseName = props.course;
 
-    console.log(courseName)
     const listItems = courseName.map((courseName) =>
       <a href={courseName.link} target="_blank" rel="noreferrer" className="courseLink">                
         <p className="coursesName">{courseName.name}</p>

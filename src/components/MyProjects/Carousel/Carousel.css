@@ -1,0 +1,56 @@
+.Carousel {
+  display: flex;
+  flex-direction: row;
+}
+.CarouselItens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.itens {
+  text-align: center;
+  width: 40%;
+}
+
+.titleProjects {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+
+.projectsImg {
+  width: 100%;
+}
+
+.buttonProjects {
+  background-color: rgba(0, 0, 0, 0);
+  color: #23be53;
+  font-size: 20px;
+  margin: 50px;
+  border: none;
+}
+
+.buttonProjects:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .divProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttonProjects {
+    margin: 0px 20px;
+  }
+  .itens {
+    width: 80%;
+  }
+  .titleProjects {
+    font-size: 2.5vw;
+  }
+  .paragrafoProjects {
+    font-size: 3vw;
+  }
+}
