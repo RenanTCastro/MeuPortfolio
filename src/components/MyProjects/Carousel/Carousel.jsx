@@ -37,7 +37,7 @@ export default function Carousel(){
                 }
            }
         }
-    },[slideIndex]);
+    },[slideIndex,x]);
 
     function plusDivs(e) {
         if(e.target.value === "right"){
